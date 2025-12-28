@@ -12,4 +12,4 @@ def read_item(item_id: int, q: str = None):
 
 @app.get("/hello")
 def hello():
-    return {"message": "Hello, FastApi!"}
+    return {"message": "Hello, FastApi CI and CD!"}
